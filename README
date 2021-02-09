@@ -12,7 +12,17 @@ vous avez maintenant accès à la réservation de la bibliotheque
 "/books/borrowed/<title>": renvoie le statut du livre "title" (est il emprunté ou non)
 "/books/add/<who>/<title>/<author>": l'utilisateur "who" veut ajouter le livre "title" de "author"
 
+Sur chaques opérations un flag True ou False est renvoyé si le call est validé ou non
+
 Gestion des semaines d'emprunt pour les livres: pas le temps.
 Testée et testable: pas le temps
 poser des question s'il y a des question cachée: prof indisponible de 21h a 5h du matin, donc tant pis
+
+uses case:
+
+localhost:5000/1/borrow/truc: l'utlisateur a l'id 1 veut emprunter le livre "truc"
+
+localhost:5000/1/borrow/machine: l'utlisateur a l'id 2 veut emprunter le livre "machine"
+
+localhost:5000/1/giveback/truc: l'utlisateur a l'id 1 veut rendre le livre "truc"
 
