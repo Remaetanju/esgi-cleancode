@@ -1,0 +1,16 @@
+Installez flask via la commande
+
+Aller dans votre navigateur et atteignez le site "localhost:5000"
+
+vous avez maintenant accès à la réservation de la bibliotheque
+
+"/user": affiche tout les utilisateurs
+"/user/<who>/borrow/<title>": L'utilisateur "who" veut emprunter le livre "title"
+"/user/<who>/giveback/<title>": L'utilisateur "who" veut rendre le livre "title"
+
+"/books": récupère tout les livres de la bibliotheque
+"/books/borrowed/<title>": renvoie le statut du livre "title" (est il emprunté ou non)
+"/books/add/<who>/<title>/<author>": l'utilisateur "who" veut ajouter le livre "title" de "author"
+
+Gestion des semaines d'emprunt pour les livres: pas le temps.
+
