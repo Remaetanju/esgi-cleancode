@@ -13,4 +13,5 @@ vous avez maintenant accès à la réservation de la bibliotheque
 "/books/add/<who>/<title>/<author>": l'utilisateur "who" veut ajouter le livre "title" de "author"
 
 Gestion des semaines d'emprunt pour les livres: pas le temps.
+Testée et testable: pas le temps
 
